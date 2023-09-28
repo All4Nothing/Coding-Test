@@ -1,5 +1,5 @@
 # Data Structre (자료구조)
-|          순번          |        추천 문제         |        문제 번호         |        문제 이름         |         난이도          |
+|          순번          |        해결 문제         |        문제 번호         |        문제 이름         |         난이도          |
 | :-----: | :-----: | :-----: | :-----: | :-----: |
 | 00 |  :heavy_check_mark:  | <a href="https://www.acmicpc.net/problem/10828" target="_blank">10828</a> | <a href="https://www.acmicpc.net/problem/10828" target="_blank">스택</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/7.svg"/>
 | 01 |  :heavy_check_mark:  | <a href="https://www.acmicpc.net/problem/9012" target="_blank">9012</a> | <a href="https://www.acmicpc.net/problem/9012" target="_blank">괄호</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/7.svg"/>
