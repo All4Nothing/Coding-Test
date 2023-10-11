@@ -13,6 +13,14 @@ for idx, nd in enumerate(l):
         continue
     tree[nd].append(idx)
     
-del_tree([int(input())])
+d = int(input())
+
+del_tree([d])
+
+for li in tree:
+    if d in li:
+        li.remove(d)
+
 
 print(tree.count([]))
+print(tree)
