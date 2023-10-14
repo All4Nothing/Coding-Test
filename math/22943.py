@@ -1,36 +1,45 @@
+import sys
+input = sys.stdin.readline
 from itertools import permutations
 
-def check_prime(n):
-    for i in range(2, n+1):
-        if n % i == 0:
-            break
-    if n == i:
-        return True
-    else:
-        False
-
 def check_plus(n):
-    for j in range(1, n):
-        if check_prime(j) and check_prime(n-j):
+    for j in range(1, n//2):
+        if j != (n-j) and j in prime_lst and (n-j) in prime_lst:
             return True
 
-def check_mul(n, m):
-    while n // m != 0:
-        p = n % m
-        n = n//m
-    for i in range(1, p+1):
-        if p%i == 0:
-            if check_prime(p//i) and check_prime(i):
+def check_mul(n, m): 
+    while n % m == 0: # 1
+        n = n//m # n = 3
+    for i in range(1, n//2): 
+        if n%i == 0:
+            if n//i in prime_lst and i in prime_lst:
                 return True
 
 k, m = map(int, input().split())
-num = ['0','1','2','3','4','5','6','7','8','9']
-per = list(permutations(num, k))
+
+MAX = 98765 // 10**(5-k)
+check = [0] * (MAX + 1)
+prime_lst = set()
+for i in range(2, MAX+1):
+    if check[i] == 0:
+        check[i] = 1
+        prime_lst.add(i)
+        j = 1
+        while i * j <= MAX:
+            check[i*j] = 1
+            j+=1
+
+per = list(permutations(range(10), k))
 perm = []
+cnt = 0
 for item in per:
+    if item[0] == 0:
+        continue
     n = int(''.join(list(map(str, item))))
     perm.append(n)
 
 for n in perm:
-    if check_plus(n) and check_mul(n, m):
-        print(n)
+    if check_mul(n, m):
+        if check_plus(n):
+            cnt += 1
+print(cnt)
