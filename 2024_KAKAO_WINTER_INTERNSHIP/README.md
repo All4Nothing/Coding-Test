@@ -8,4 +8,8 @@
 | 02 |                      | <a href="https://school.programmers.co.kr/learn/courses/30/lessons/258711" target="_blank">도넛과 막대 그래프</a> | Lv. 2 | 
 | 03 |                      | <a href="https://school.programmers.co.kr/learn/courses/30/lessons/258709" target="_blank">주사위 고르기</a> | Lv. 3 | 
 | 04 |                      | <a href="https://school.programmers.co.kr/learn/courses/30/lessons/258707" target="_blank">n + 1 카드게임</a> | Lv. 3 | |
-| 05 |                      | <a href="https://school.programmers.co.kr/learn/courses/30/lessons/258705" target="_blank">산 모양 타일링</a> | Lv. 3 | |
+| 05 |                      | <a href="https://school.programmers.co.kr/learn/courses/30/lessons/258705" target="_blank">산 모양 타일링</a> | Lv. 3 | |  
+
+
+### 2024 카카오 겨울 인턴십 코딩테스트 문제해설
+<a href="https://tech.kakao.com/posts/610" target="_blank">**kakao tech**</a>
