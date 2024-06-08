@@ -1,1 +1,11 @@
-### [2024 KAKAO WINTER INTERNSHIP CODING TEST]("https://school.programmers.co.kr/learn/challenges?order=recent&page=1&partIds=58464") 
+### 2024 KAKAO WINTER INTERNSHIP CODING TEST
+[**link**]("https://school.programmers.co.kr/learn/challenges?order=recent&page=1&partIds=58464")
+
+
+|          순번          |        해결 문제         |        문제 이름         |         난이도          |
+| :-----: | :-----: | :-----: | :-----: |   
+| 01 |  :heavy_check_mark:  | [가장 많이 받은 선물]("https://school.programmers.co.kr/learn/courses/30/lessons/258712") | Lv. 1 |
+| 02 |                      | [도넛과 막대 그래프]("https://school.programmers.co.kr/learn/courses/30/lessons/258711") | Lv. 2 | 
+| 03 |                      | [주사위 고르기]("https://school.programmers.co.kr/learn/courses/30/lessons/258709") | Lv. 3 | 
+| 04 |                      | [n + 1 카드게임]("https://school.programmers.co.kr/learn/courses/30/lessons/258707") | Lv. 3 | |
+| 05 |                      | [산 모양 타일링]("https://school.programmers.co.kr/learn/courses/30/lessons/258705") | Lv. 3 | |
