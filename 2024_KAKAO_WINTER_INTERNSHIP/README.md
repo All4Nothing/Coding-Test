@@ -1,5 +1,5 @@
 ### 2024 KAKAO WINTER INTERNSHIP CODING TEST
-[**link**]("https://school.programmers.co.kr/learn/challenges?order=recent&page=1&partIds=58464")
+<a href="https://school.programmers.co.kr/learn/challenges?order=recent&page=1&partIds=58464" target="_blank">**Link**</a>
 
 
 |          순번          |        해결 문제         |        문제 이름         |         난이도          |
