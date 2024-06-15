@@ -1,6 +1,6 @@
 ### 가장 많이 받은 선물
 **첫 시도**  
-[*solution*]("https://github.com/All4Nothing/Coding-Test/2024_KAKAO_WINTER_INTERNSHIP/가장_많이_받은_선물/solution1.py)
+[*solution*](https://github.com/All4Nothing/Coding-Test/2024_KAKAO_WINTER_INTERNSHIP/가장_많이_받은_선물/solution1.py)
 
 > **정확성 : 100/100**
 
