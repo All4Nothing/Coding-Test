@@ -2,7 +2,7 @@
 **첫 시도**  
 [*solution*](https://github.com/All4Nothing/Coding-Test/2024_KAKAO_WINTER_INTERNSHIP/가장_많이_받은_선물/solution1.py)
 
-> **정확성 : 100/100**
+> **정확성 : 20/20**
 
 **index() vs find()**  
 - 문자가 없을 경우  
